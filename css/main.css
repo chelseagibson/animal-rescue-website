@@ -8,5 +8,13 @@ li a {
 }
 
 li a:hover {
-  background-color: #F4C37D
+  background-color: #F4C37D;
+}
+
+.current {
+  color: black;
+}
+
+.banner-content h2 {
+  color: #EAEAEA;
 }
