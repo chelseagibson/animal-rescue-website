@@ -1,0 +1,12 @@
+html {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+li a {
+  text-decoration: none;
+  color: #751919;
+}
+
+li a:hover {
+  background-color: #F4C37D
+}
