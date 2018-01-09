@@ -23,6 +23,10 @@ header {
   color: #EAEAEA;
 }
 
+.banner-content-sponsor {
+  transform: translateX(-20%);
+}
+
 .banner-content h1 {
   color: black;
 }
