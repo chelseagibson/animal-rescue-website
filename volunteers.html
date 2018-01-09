@@ -53,29 +53,42 @@
       <h1 class="text-center">Sponsoring</h1>
       <p>Sponsoring one of our animals now couldn't be easier!  In the form below simply tell us which resident you would like to sponsor.  Tell us whether you would like to be a monthly (reoccurring) sponsor, or a one time sponsor. Add the amount you would like your sponsorship to be (sponsorships start at $10.00 per month and can be increased by $10 increments to whatever you would feel comfortable contributing towards the upkeep and care of the resident that you have chosen.  If you would like to be a farm sponsor (instead of sponsoring a particular resident), that would be great too!  Sponsorship amounts of $25 or more will receive an 8x10 picture of the resident being sponsored (or if you've chosen a general farm sponsorship, a picture of a resident of your choosing).  All sponsors can also arrange a private visit to the farm at a convenient time.  All  sponsorships can be cancelled at any time. Thank you! </p>
 
-      <form class="wrapper" method="POST" action="https://formspree.io/gibs0162@algonquinlive.com">
-        <fieldset class="pad-t-1-2">
-          <legend class="giga bold gutter-1-2 push">Sponsor Form</legend>
-          <div class="grid">
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
-              <label class="push-1-8" for="name">Full name</label>
-              <input id="name" name="name">
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2 pad-t-1-2">
-              <label class="push-1-8" for="text">Is this an ongoing monthly sponsorship or a one time sponsorship?</label>
-              <input id="text" type="text" name="text">
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
-              <label class="push-1-8" for="text">Would you like to sponsor a particular resident or would you prefer to be a farm sponsor?</label>
-              <input id="text" type="text" name="text">
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
-              <label class="push-1-8" for="email">Email</label>
-              <input id="email" type="email" name="email">
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
-              <label for="number">Phone number<em class="optional italic"> (optional)</em></label>
-              <input id="number" type="tel" name="number">
-            </div>
-          </div>
+      <form class="push-0" method="POST" action="https://formspree.io/gibs0162@algonquinlive.com">
+        <legend class="giga bold gutter-1-2 push">Sponsor Form</legend>
+        <div class="push">
+          <label for="name">Full Name</label>
+          <input id="name" name="name">
+        </div>
+        <div class="push">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email">
+        </div>
+        <div class="push">
+          <label for="details">Is this an ongoing monthly sponsorship or a one time sponsorship?</label>
+          <textarea id="details" name="message"></textarea>
+        </div>
+        <div class="push">
+          <label for="details">Would you like to sponsor a particular resident or would you prefer to be a farm sponsor?</label>
+          <textarea id="details" name="message"></textarea>
+        </div>
+        <div class="push">
+          <label for="details">If you choose to sponsor a particular resident, who would you like that to be?</label>
+          <textarea id="details" name="message"></textarea>
+        </div>
+        <div class="push">
+          <label for="details">What amount would like to give for your sponsorship?</label>
+          <textarea id="details" name="message"></textarea>
+        </div>
+        <div class="push">
+          <label for="details">Would you prefer to use Paypal, E-Transfer or by cheque?</label>
+          <textarea id="details" name="message"></textarea>
+        </div>
+        <div class="push">
+          <label for="details">Do you have any questions about sponsoring?</label>
+          <textarea id="details" name="message"></textarea>
+        </div>
+        <div>
+          <button class="btn btn-light" type="submit">Submit Application</button>
+        </div>
       </form>
     </section>

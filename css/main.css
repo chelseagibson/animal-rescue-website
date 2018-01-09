@@ -35,3 +35,7 @@ header {
   background-color: #3A3A3A;
   color: white;
 }
+
+.border {
+  border-top: 1px solid black;
+}
