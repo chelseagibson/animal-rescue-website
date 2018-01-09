@@ -31,7 +31,7 @@ header {
   color: black;
 }
 
-.pet-section {
+.pet-section , .volunteer{
   background-color: #3A3A3A;
   color: white;
 }
